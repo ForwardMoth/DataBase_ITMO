@@ -4,7 +4,7 @@
 ```sql
 SELECT color, COUNT(*) 
 FROM Production.Product 
-WHERE ListPrice < 30 
+WHERE ListPrice < 30 and color IS NOT NULL
 GROUP BY color;
 ```
 ## 2. Найти и вывести на экран список, состоящий из цветов товаров, таких, что минимальная цена товара данного цвета более 100.
@@ -103,6 +103,7 @@ GROUP BY ProductSubcategoryID;
 ```sql
 SELECT color 
 FROM Production.Product 
+WHERE color IS NOT NULL
 GROUP BY color 
 ORDER BY count(color) DESC;
 ```
