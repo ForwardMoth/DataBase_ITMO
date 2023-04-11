@@ -9,3 +9,5 @@
 ### [Лабораторная работа 4](https://github.com/ForwardMoth/ITMO_term/blob/main/lab4.md)
 
 ### [Лабораторная работа 5](https://github.com/ForwardMoth/ITMO_term/blob/main/lab5.md)
+
+### [Лабораторная работа 6](https://github.com/ForwardMoth/ITMO_term/blob/main/lab6.md)
